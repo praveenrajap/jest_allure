@@ -11,8 +11,12 @@ jobs:
         with:
           distribution: zulu
           java-version: 17
+      
+
       - name: Install npm
-        run: npm install
+        run: |
+             npm install
+             npm install rimraf --save-dev
       - name: Run tests
         run: npm test
 
