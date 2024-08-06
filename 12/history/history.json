@@ -1,1 +1,1 @@
-{}
+{"c60ae3530237cc5342d50265018d28a4:d41d8cd98f00b204e9800998ecf8427e":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"c209b2b41cc1ac39","reportUrl":"https://praveenrajap.github.io/jest_allure/12//#testresult/c209b2b41cc1ac39","status":"passed","time":{"start":1722922996387,"stop":1722922996393,"duration":6}}]}}
