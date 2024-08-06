@@ -15,11 +15,11 @@ jobs:
 
       - name: Install npm
         run: |
-             npm install
+             npm ci
              npm install rimraf --save-dev
              npm install allure-jest --save-dev
       - name: Run tests
-        run: npm test
+        run: npx test
 
       - name: Load test report history
         uses: actions/checkout@v3
