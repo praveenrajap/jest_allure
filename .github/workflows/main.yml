@@ -13,7 +13,7 @@ jobs:
           java-version: 17
       
 
-      - name: Install npm
+      - name: Install npm    
         run: |
              npm ci
              npm install rimraf --save-dev
