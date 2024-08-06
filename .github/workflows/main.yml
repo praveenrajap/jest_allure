@@ -20,7 +20,8 @@ jobs:
           distribution: zulu
           java-version: 17
       
-
+      - name: Install allurectl
+        uses: allure-framework/setup-allurectl@v1
       - name: Install npm    
         run: |
              npm ci
